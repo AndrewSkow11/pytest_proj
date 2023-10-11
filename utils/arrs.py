@@ -42,5 +42,4 @@ def my_slice(coll, start=None, end=None):
 
     return coll[normalized_start:normalized_end]
 
-print(my_slice([1, 2, 3, 4], -1, 0))
 
